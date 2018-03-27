@@ -31,10 +31,11 @@ public class AutoMyAlgorithm2 {
     public static void main(String[] args) {
 
         // TODO code application logic here
-        MyAlgorithm algorithm = new MyAlgorithm();
+        //MyAlgorithm algorithm = new MyAlgorithm();
+        MyAlgorithm_ver2 algorithm = new MyAlgorithm_ver2();
         initData();
         //Chay test case tu 6 den 10
-        for (int i = 6; i <= 6; i++) {
+        for (int i = 9; i <= 9; i++) {
             try {
                 System.out.println("Test case "+i+"---------------------------");
                 //Cai dat ten File
